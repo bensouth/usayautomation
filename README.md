@@ -12,7 +12,7 @@ If I had more than a few hours I would have liked to do the following:
 
 Change the location of the web driver in all tests, this needs to match where you have saved the solution.
 
-For example C:\Downloads\AutomationPractice\
+For example C:\Downloads\usayautomation\AutomationPractice\
 
 The files that need to be changed are:
 - LoginTest.cs

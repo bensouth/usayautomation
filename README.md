@@ -10,19 +10,18 @@ If I had more than a few hours I would have liked to do the following:
 
 ## Installation
 
-Change the location of the web driver in all tests, this needs to match where you have saved the solution.
+Change the location of the web driver in all tests, this needs to match where you have saved the solution as this needs to be able to find the ChromeDriver.exe file.
 
-For example C:\Downloads\usayautomation\AutomationPractice\
+For example if you have your solution at C:\Downloads\usayautomation\AutomationPractice\ChromeDriver.exe you should change the line below to: 
+
+```python
+IWebDriver webDriver = new ChromeDriver(@"C:\Downloads\usayautomation\AutomationPractice\");
+```
 
 The files that need to be changed are:
 - LoginTest.cs
 - RegisterTest.cs
 - CheckoutTest.cs
-
-The line will look like this:
-```python
-IWebDriver webDriver = new ChromeDriver(@"C:\repos\AutomationPractice\AutomationPractice\");
-```
 
 ## Usage
 
